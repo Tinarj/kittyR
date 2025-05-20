@@ -2,10 +2,33 @@
 % Please edit documentation in R/kitty.R
 \name{kitty}
 \alias{kitty}
-\title{Show a Cute Cat}
+\title{Show a Cute Colored ASCII Cat}
 \usage{
-kitty()
+kitty(
+  ear_color = "yellow",
+  eye_color = "blue",
+  whisker_color = "magenta",
+  mouth_color = "red",
+  body_color = "grey",
+  leg_color = "green",
+  tail_color = "cyan"
+)
+}
+\arguments{
+\item{ear_color}{Color for the ears.}
+
+\item{eye_color}{Color for the eyes.}
+
+\item{whisker_color}{Color for the whiskers.}
+
+\item{mouth_color}{Color for the mouth.}
+
+\item{body_color}{Color for the body.}
+
+\item{leg_color}{Color for the legs.}
+
+\item{tail_color}{Color for the tail.}
 }
 \description{
-This function prints an ASCII art kitten to cheer you up.
+Prints an ASCII cat with different parts colored.
 }
