@@ -1,8 +1,7 @@
 
-![](man/figures/kittyR_sticker.png)
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# kittyR 🐱
+# KittyR 🐱 <img src="man/figures/kittyR_sticker.png" align="right" alt="" width="120" />
 
 <!-- badges: start -->
 <!-- badges: end -->
